@@ -1,0 +1,101 @@
+/* RESETE */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+/* RESETE */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-tweet {
+    align-items: center;
+}
+
+.tweet-container {
+    width: 591px;
+    height: 161px;
+    border: 1px solid #DADDDF;
+    box-sizing: border-box;
+    align-items: start;
+    margin-top: 100px;
+    padding: 17px;
+    gap: 12px;
+}
+
+.tweet-comment {
+    width: 430px;
+    height: 72px;
+    margin-top: 5px;
+    color: #0F1419;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.tweet-bar {
+    width: 430px;
+    height: 32px;
+    margin-top: 16px;
+}
+
+.comment-style {
+    color: #536471;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.comment-number {
+    margin-left: 17px;
+}
+
+.retweet-icon {
+    margin-left: 73px;
+}
+
+.retweet-number {
+    margin-left: 18px;
+}
+
+.favorite-icon {
+    margin-left: 73px;
+}
+
+.favorites-number {
+    margin-left: 21px;
+}
+
+.share-option {
+    margin-left: 73px;
+}
+
+
+.name-user {
+    color: #0F1419;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.user-information {
+    color: #536471;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.icon-validation {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.icon-dot {
+    margin-left: 3px;
+    margin-right: 3px;
+}
